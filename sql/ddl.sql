@@ -18,7 +18,7 @@ drop table tên_table;
 alter table tên_table add tên_column ...-- các thuộc tính
 
 -- Thay đổi kiểu dữ liệu của cột cũ
-alter table tên_table alter column age type kiểu_dữ_liệu_mới;
+alter table tên_table alter column age kiểu_dữ_liệu_mới;
 
 -- Xóa cột
 alter table tên_table drop column tên_column;
